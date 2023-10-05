@@ -19,9 +19,15 @@
   font-size: 12px;
 }
 .nav-tabs .nav-link {
-  border-color: #767676;
+  border: 1px solid #767676;
   border-bottom: none;
-  background: linear-gradient(#fff, #cddd);
+  background: #f9f9f9;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  color: darkgreen;
+  border-color:#767676;
+  background: #EBEBEB;
 }
 .nav-tabs .nav-link:focus {
   position: relative;
@@ -49,7 +55,7 @@
 }
 @media only screen and (min-width: 1000px) {
   .tab-content .tab-pane .overlay-text {
-    background: rgba(0,0,0,0.5);
+    background: #333;
     position: relative;
     height: 110px;
     margin-top: -110px;
