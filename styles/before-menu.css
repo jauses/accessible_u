@@ -26,11 +26,21 @@
 	outline: 1px dotted white;
 }
 .dropdown-menu {
-	margin-top:-1px;
+  margin-top:-1px;
+}
+.dropdown-menu.focus {
+  display:block;
+  opacity:0;
+  z-index:-1;
 }
 .nav-item.dropdown:hover ul {
 	display:block;
 }
+.nav-item.dropdown:hover ul.dropdown-menu.focus {
+    opacity:1;
+    z-index:1;
+}
+
 .navbar-toggler:hover + .navbar-collapse {
 	display:block;
 }
