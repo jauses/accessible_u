@@ -38,6 +38,7 @@
 .navbar-dark .navbar-nav .nav-link {
 	color: lightgreen;
 	text-decoration: none;
+	border-bottom:none;
 }
 .navbar-dark .navbar-nav .nav-item:hover {
 	color: lightgreen;
@@ -56,4 +57,5 @@
 .dropdown-item:hover {
 	background-color: lightgreen;
 	color: #000;
+	border-bottom:none;
 }
