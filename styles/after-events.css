@@ -12,7 +12,7 @@
 .events li {
   padding: 0 0 1rem 0;
   margin-bottom: 1rem;
-  background: url('../images/hr.png') bottom left no-repeat;
+  border-bottom: 1px solid #808080;
 }
 .events h3,
 .events time,
