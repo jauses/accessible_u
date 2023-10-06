@@ -24,10 +24,12 @@
  * (HTML does NOT use semantic elements)
  *
  */
-
+#banner {
+   padding:20px;
+ }
  #logo {
    width:100%;
-   max-width:400px;
+   max-width:350px;
    margin: 0 auto;
  }
 .heading {
