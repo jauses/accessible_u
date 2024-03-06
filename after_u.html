@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +20,7 @@
   <script src="scripts/after-modal.js"></script>
   <script src="scripts/after-hero.js"></script>
 </head>
+
 <body>
   <ul id="skip">
     <li><a href="#main">Skip to main content</a></li>
@@ -28,16 +30,15 @@
 
     <header role="banner" class="container clearfix">
       <h1>
-  	    <a href="/" aria-current="page" >
-          <img id="logo" src="images/8675309-l-o-g-o-after.png" alt="Accessible University Home" class="d-block"/>
+        <a href="/" aria-current="page">
+          <img id="logo" src="images/8675309-l-o-g-o-after.png" alt="Accessible University Home" class="d-block" />
         </a>
       </h1>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-primary md-3" aria-label="main">
       <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -47,9 +48,8 @@
               <a class="nav-link" href="after_u.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#about" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About
+              <a class="nav-link dropdown-toggle" href="#about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#news">News</a></li>
@@ -59,9 +59,8 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#academics" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Academics
+              <a class="nav-link dropdown-toggle" href="#academics" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Academics
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#degree">Degree Programs</a></li>
@@ -71,9 +70,8 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#admissions" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Admissions
+              <a class="nav-link dropdown-toggle" href="#admissions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Admissions
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#undergrad">Undergraduate</a></li>
@@ -84,7 +82,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link" href="#visitors">
-                  Visitors
+                Visitors
               </a>
             </li>
           </ul>
@@ -97,51 +95,51 @@
       </div>
     </nav>
 
-<!--
+    <!--
 	empty message div, will be populated dynamically
 	and its contents will be announced to screen reader users thanks to role="alert"
 -->
     <div id="errorMsg" role="alert"></div>
 
-    <br/>
+    <br />
     <div class="container">
       <div class="row">
-        <main class="col-md-8" id="main"  tabindex="-1">
+        <main class="col-md-8" id="main" tabindex="-1">
           <div class="mb-3">
             <h2 class="sr-only">News</h2>
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
-                  <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">Orientation Week</a>
+                <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">Orientation Week</a>
               </li>
               <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">Botany Pond</a>
+                <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">Botany Pond</a>
               </li>
               <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">Free Expression</a>
+                <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">Free Expression</a>
               </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
-                  <img src="images/rockefeller.jpg" alt="Students look down on as President Alivasatos delivers remarks in Rockefeller Chapel"/>
-                  <div class="p-3 overlay-text clearfix">
-                    <h3><a href="somepage.html?ref=Slide%1">UChicago community welcomes new students to campus</a></h3>
-                    <p>New graduate and undergraduate students take part in Orientation Week activities</p>
-                  </div>
+              <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+                <img src="images/rockefeller.jpg" alt="Students look down on as President Alivasatos delivers remarks in Rockefeller Chapel" />
+                <div class="p-3 overlay-text clearfix">
+                  <h3><a href="somepage.html?ref=Slide%1">UChicago community welcomes new students to campus</a></h3>
+                  <p>New graduate and undergraduate students take part in Orientation Week activities</p>
                 </div>
-                <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
-                  <img src="images/botanypond.jpg" alt="Man walks across the bridge at Botany Pond"/>
-                  <div class="p-3 overlay-text">
-                    <h3><a href="somepage.html?ref=Slide%2">Botany Pond Restoration</a></h3>
-                    <p>Creating a space for the campus community and wildlife to enjoy.</p>
-                  </div>
+              </div>
+              <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+                <img src="images/botanypond.jpg" alt="Man walks across the bridge at Botany Pond" />
+                <div class="p-3 overlay-text">
+                  <h3><a href="somepage.html?ref=Slide%2">Botany Pond Restoration</a></h3>
+                  <p>Creating a space for the campus community and wildlife to enjoy.</p>
                 </div>
-                <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
-                  <img src="images/freeexpression.jpg" alt="aerial view of campus looking north from across the Midway"/>
-                  <div class="p-3 overlay-text">
-                    <h3><a href="somepage.html?ref=Slide3">Forum for Free Inquiry and Expression Oct. 5-6</a></h3>
-                    <p>Discussions with leading thinkers to examine issues across academia and society</p>
-                  </div>
+              </div>
+              <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+                <img src="images/freeexpression.jpg" alt="aerial view of campus looking north from across the Midway" />
+                <div class="p-3 overlay-text">
+                  <h3><a href="somepage.html?ref=Slide3">Forum for Free Inquiry and Expression Oct. 5-6</a></h3>
+                  <p>Discussions with leading thinkers to examine issues across academia and society</p>
                 </div>
+              </div>
             </div>
 
             <div class="section">
@@ -158,7 +156,7 @@
 
             <div class="section">
               <h2>Can you spot the barriers?</h2>
-              <p><img  style="float:left;max-width:200px;margin-right:10px"  src="images/8675309-block.jpg" alt="Sign that says, road closed, which presents a barrier to using the road"/>This page is an improved version, with accessibility issues corrected. Details about all known issues are on the <a href="issues.html">List of Issues</a> page. To see the original issues, consult the <a href="before_u.html">Inaccessible version</a>.
+              <p><img style="float:left;max-width:200px;margin-right:10px" src="images/8675309-block.jpg" alt="Sign that says, road closed, which presents a barrier to using the road" />This page is an improved version, with accessibility issues corrected. Details about all known issues are on the <a href="issues.html">List of Issues</a> page. To see the original issues, consult the <a href="before_u.html">Inaccessible version</a>.
               </p>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">View a list of accessibility issues</button>
             </div>
@@ -204,7 +202,7 @@
                     <td>20%</td>
                   </tr>
                   <tr>
-                    <th scope="row" >% Female</th>
+                    <th scope="row">% Female</th>
                     <td>11%</td>
                     <td>16%</td>
                     <td>27%</td>
@@ -292,15 +290,15 @@
 
                 <div class="required form-group">
                   <label for="name">Name: *</label>
-                  <input id="name" type="text" name="name" class="form-control" autocomplete="name" required/>
+                  <input id="name" type="text" name="name" class="form-control" autocomplete="name" required />
                 </div>
                 <div class="required form-group">
                   <label for="email">Email: *</label>
-                  <input id="email" type="email" name="email" class="form-control" autocomplete="email" required/>
+                  <input id="email" type="email" name="email" class="form-control" autocomplete="email" required />
                 </div>
                 <div class="form-group">
                   <label for="country">Country:</label>
-                  <input type="text" name="country" id="country" class="form-control" autocomplete="country-name"/>
+                  <input type="text" name="country" id="country" class="form-control" autocomplete="country-name" />
                 </div>
 
                 <fieldset id="majors">
@@ -308,23 +306,23 @@
                   <ul class="list-unstyled">
                     <li>
                       <label for="cs">Computer Science</label>
-                      <input type="checkbox" name="major_cs" id="cs"/>
+                      <input type="checkbox" name="major_cs" id="cs" />
                     </li>
                     <li>
                       <label for="eng">Engineering</label>
-                      <input type="checkbox" name="major_eng" id="eng"/>
+                      <input type="checkbox" name="major_eng" id="eng" />
                     </li>
                     <li>
                       <label for="eco">Economics</label>
-                      <input type="checkbox" name="major_econ" id="eco"/>
+                      <input type="checkbox" name="major_econ" id="eco" />
                     </li>
                     <li>
                       <label for="phy">Physics</label>
-                      <input type="checkbox" name="major_phy" id="phy"/>
+                      <input type="checkbox" name="major_phy" id="phy" />
                     </li>
                     <li>
                       <label for="psy">Psychology</label>
-                      <input type="checkbox" name="major_psy" id="psy"/>
+                      <input type="checkbox" name="major_psy" id="psy" />
                     </li>
                   </ul>
                 </fieldset>
@@ -360,7 +358,7 @@
         </div>
         <div class="container sub-footer">
           <div id="ccLogo">
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" /></a>
           </div>
           Accessible University by <a href="http://washington.edu/accesscomputing/AU">University of Washington</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
           <p>This product was originally developed with support from the National Institute on Disability and Rehabilitation Research of the U.S. Department of Education (grant #H133D010306), and has been subsequently updated and maintained with support from the National Science Foundation (grant #CNS-054061S). The contents do not necessarily represent the policies of the U.S. federal government, and you should not assume their endorsement.</p>
@@ -414,4 +412,5 @@
   </div>
 
 </body>
+
 </html>
