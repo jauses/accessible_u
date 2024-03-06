@@ -25,7 +25,7 @@
 }
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-  color: darkgreen;
+  color: #006100;
   border-color:#767676;
   background: #EBEBEB;
 }
@@ -36,7 +36,7 @@
 
 .nav-tabs .nav-link.active {
   border-color: #111;
-  color: lightgreen;
+  color: #8EED8E;
   background: #333;
 }
 .tab-content {
@@ -45,11 +45,18 @@
   color: #fff;
 }
 .tab-content a {
-  color: lightgreen;
-}
-.tab-content a:hover {
+  color: #8EED8E;
   text-decoration: none;
+  border-bottom: 1px dotted #8EED8E;
 }
+
+.tab-content a:hover,
+.tab-content a:focus {
+  color: #B2F5B2;
+  text-decoration: none;
+  border-bottom: 1px solid #B2F5B2;
+}
+
 .tab-content .tab-pane img {
   width: 100%
 }
